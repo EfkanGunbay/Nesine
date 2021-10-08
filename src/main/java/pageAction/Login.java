@@ -1,20 +1,17 @@
 package pageAction;
 
-import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileDriver;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
-import stepDefinition.AllPageAction;
-import java.util.concurrent.TimeUnit;
+import stepDefinition.ActionPage;
+
 
 public class Login {
-    AllPageAction allpageactions;
+    ActionPage allpageactions;
 
 
-
-    public Login(AllPageAction allpageactions) {
+    public Login(ActionPage allpageactions) {
 
         this.allpageactions = allpageactions;
 
@@ -49,7 +46,7 @@ public class Login {
 
     @And("I click the log out in button")
     public void i_click_the_log_out_in_button() {
-        allpageactions.logoutclk();
+        allpageactions.logout();
 
     }
 

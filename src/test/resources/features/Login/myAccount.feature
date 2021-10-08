@@ -18,9 +18,6 @@ Feature:  Login
     Then I see promotin button
 
 
-
-
-
   @MyAccount
   Scenario: 2M MyAccount
     Then I click the login member number in button

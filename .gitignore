@@ -1,0 +1,15 @@
+.gradle/
+.idea/
+.allure/
+build/
+tools/
+classes/
+*.iml
+*.jpg
+*.rej
+**/*-local.json
+*.allure
+*rerun*
+*info*
+out/
+

@@ -16,7 +16,7 @@ import org.slf4j.Logger;
 import javax.swing.*;
 
 
-public class AllPageAction {
+public class ActionPage {
 
         private AppiumDriver driver;
         AllElement allpage_elements;
@@ -52,7 +52,7 @@ public class AllPageAction {
             allpage_elements.membernumber.click();
         }
 
-        public void closeclk(){
+        public void logout(){
             allpage_elements.logout.isDisplayed();
             allpage_elements.logout.click();
         }

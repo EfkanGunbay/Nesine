@@ -1,24 +1,17 @@
 package pageAction;
 
 
-import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileDriver;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
-import io.cucumber.java.en.When;
-import io.cucumber.java.en.Then;
-import stepDefinition.AllPageAction;
-import java.util.concurrent.TimeUnit;
-import org.slf4j.Logger;
-
+import stepDefinition.ActionPage;
 
 
 public class MyAccount {
-    AllPageAction allpageactions;
+    ActionPage allpageactions;
 
 
 
-    public MyAccount(AllPageAction allpageactions) {
+    public MyAccount(ActionPage allpageactions) {
         this.allpageactions = allpageactions;
 
     }
